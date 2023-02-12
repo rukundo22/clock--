@@ -1,0 +1,113 @@
+.logo{
+    width: 11vw;
+    height: 11vw;
+}
+.image{
+     width: 30vw;
+     height: 30vw;
+     margin: auto;
+     padding: 0.5vw;
+}
+.colorcompanyname{
+    color: darkmagenta;
+}
+/*navigation style*/
+.navigation{
+    background-color: darkgray;
+    max-width:100%;
+}
+.links{
+    text-decoration:none;
+}
+body{
+    background-color: lightgrey;
+    
+    
+}
+.canvashead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border:1vw ;
+    margin:1vw;
+    color: rgb(29, 29, 250);
+}
+.canvasbody{
+    background-color: lightgrey;
+    margin: 1vw;
+    border: 0;
+    
+}
+.clientsloginbtn{
+    background-color: chartreuse;
+    margin: auto;
+}
+.wrapcanvas{
+    margin:0.5vw;
+    border:0.5vw;
+}
+.slidebg{
+    background-color: rgba(141, 54, 134, 0.966);
+}
+.callus{
+    display: inline-flex;
+   flex-direction: row ;
+}
+.mtn{
+    color:yellow;  
+}
+.airtel{
+    color:red;
+}
+/* call link styles*/
+.call{
+    background-color: rgba(141, 54, 134, 0.966);;
+    border:1;
+    border-color:black;
+}
+.call:hover{
+    opacity: 0.5;
+}
+/* call icon size styles*/
+.iconsize{
+    font-size: 5vw;
+}
+/* font sizes of mtn and airtel words
+.callfont{
+    font-size:2vw;
+}*/
+/*sliiding service pics*/
+.slidebody{
+    background-color: lightgreen;
+    max-width: 100%;
+}
+.needstyle{
+    font-family:cursive;
+    font-style: italic;
+}
+.slidebg:hover{
+    opacity: 0.7;
+}
+.textarea{
+   width:auto;
+   height:10vw;
+    
+}
+.inquirybtn{
+    height:8vw;
+    width: 12vw;
+    border-radius: 12vw;
+    border-style: hidden;
+
+}
+label{
+    font-style: italic;
+    font-weight:500;
+}
+/* styles for duuka page*/
+.shoplogo{
+    width: 7vw;
+    height: 7vw;
+}
+
+
