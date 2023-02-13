@@ -13,14 +13,14 @@
 }
 /*navigation style*/
 .navigation{
-    background-color: darkgray;
+    background-color: lightgrey;
     max-width:100%;
 }
 .links{
     text-decoration:none;
 }
 body{
-    background-color: lightgrey;
+    background-color: white;
     
     
 }
@@ -33,7 +33,7 @@ body{
     color: rgb(29, 29, 250);
 }
 .canvasbody{
-    background-color: lightgrey;
+    background-color: white;
     margin: 1vw;
     border: 0;
     
@@ -41,6 +41,7 @@ body{
 .clientsloginbtn{
     background-color: chartreuse;
     margin: auto;
+    color: darkmagenta;
 }
 .wrapcanvas{
     margin:0.5vw;
@@ -108,6 +109,30 @@ label{
 .shoplogo{
     width: 7vw;
     height: 7vw;
+}
+/*styles for clients signup page*/
+.signup{
+    color: darkmagenta;
+    font-family: fantasy;
+}
+.easy{
+    font-family: cursive;
+    font-size: larger;
+    color: lime;  
+}
+.signupbtn{
+    color: darkmagenta;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border: 0em;
+    background-color: lime;
+    font-weight: bold;
+}
+/*additional style for sign in*/
+.signin{
+    font-family: cursive;
+}
+.list{
+    background-color: aliceblue;
 }
 
 
