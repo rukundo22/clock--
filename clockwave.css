@@ -7,7 +7,7 @@
 }
 /*navigation style*/
 .navigation{
-    background-color: lightgrey;
+    background-color: lightgray;
     max-width:100%;
 }
 .links{
@@ -27,7 +27,7 @@ body{
     font-family: cursive;
 }
 .list{
-    background-color: aliceblue;
+    background-color:lightgray;
 }
 .canvashead{
     display: flex;
@@ -56,7 +56,7 @@ body{
 .clientsform{
     border: 3%;
     border-color: none;
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 /* styles for sliding images*/
 .wrapcanvas{
@@ -115,7 +115,7 @@ body{
 }*/
 /*sliiding service pics*/
 .slidebody{
-    background-color: aliceblue;
+    background-color: lightgray;
     max-width: 100%;
 }
 .needstyle{
@@ -142,7 +142,7 @@ body{
     border-style: none;
     border-color: darkmagenta;
     padding:4%;
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 .btnq{
     height:8vw;
@@ -190,7 +190,7 @@ label{
     color: white;
 }
 .signupform{
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 /* styles on about us page*/
 .aboutbg{
@@ -271,7 +271,7 @@ label{
     border-style: none;
     border-color: darkmagenta;
     border:0%;
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 @media only screen and (min-width: 600px) { 
     .staform{
@@ -280,7 +280,7 @@ label{
   
 @media only screen and (max-width: 600px) { 
     .staf22{
-    background-color: aliceblue;}}  
+    background-color: lightgray;}}  
 
 /* career page styles*/
 .careerfooter{
@@ -293,7 +293,7 @@ label{
 }
 .txtcareer{
     color: darkmagenta;
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 .careertip{
     font-size: larger;
@@ -337,7 +337,7 @@ label{
     }
 }
 .category{
-    background-color: aliceblue;
+    background-color:aliceblue;
     padding:4vw;
 }
 .helpdrop{
