@@ -2,12 +2,6 @@
     width: 11vw;
     height: 11vw;
 }
-.image{
-     width: 30vw;
-     height: 30vw;
-     margin: auto;
-     padding: 0.5vw;
-}
 .colorcompanyname{
     color: darkmagenta;
 }
@@ -20,9 +14,20 @@
     text-decoration:none;
 }
 body{
-    background-color: white;
-    
-    
+    background-color: white;   
+}
+
+/* other links on home page styles.*/
+.otherlnks{
+    font-family:'Times New Roman', Times, serif;
+    color: darkmagenta;
+}
+/* style for clients sign in*/
+.signin{
+    font-family: cursive;
+}
+.list{
+    background-color: aliceblue;
 }
 .canvashead{
     display: flex;
@@ -41,8 +46,19 @@ body{
 .clientsloginbtn{
     background-color: chartreuse;
     margin: auto;
-    color: darkmagenta;
+    color: white;
+    border: 2%;
+    border-color: darkblue;
 }
+.clientsloginbtn:hover{
+    background-color: darkblue;
+}
+.clientsform{
+    border: 3%;
+    border-color: none;
+    background-color: aliceblue;
+}
+/* styles for sliding images*/
 .wrapcanvas{
     margin:0.5vw;
     border:0.5vw;
@@ -50,6 +66,26 @@ body{
 .slidebg{
     background-color: rgba(141, 54, 134, 0.966);
 }
+.fcontain1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:600px){
+#slide22{
+  max-width: 30vw;
+  max-height: auto;
+  
+}}
+.image{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0.5vw;
+}
+
+/*styles on index call us section*/
 .callus{
     display: inline-flex;
    flex-direction: row ;
@@ -79,26 +115,48 @@ body{
 }*/
 /*sliiding service pics*/
 .slidebody{
-    background-color: lightgreen;
+    background-color: aliceblue;
     max-width: 100%;
 }
 .needstyle{
-    font-family:cursive;
+    font-family:fantasy;
     font-style: italic;
+    color: darkmagenta;
 }
 .slidebg:hover{
     opacity: 0.7;
 }
+
+/*styles of slide end and  for inqiury form start*/
 .textarea{
    width:auto;
    height:10vw;
     
 }
-.inquirybtn{
+ @media only screen and (min-width: 600px) { 
+    .inquiryform{
+    padding: 8%;
+    
+}}
+.form1{
+    border-style: none;
+    border-color: darkmagenta;
+    padding:4%;
+    background-color: aliceblue;
+}
+.btnq{
     height:8vw;
     width: 12vw;
     border-radius: 12vw;
     border-style: hidden;
+    color: white;
+    background-color:   lime;
+
+}
+.btnq:hover{
+    color: white;
+    background-color:darkblue;
+    
 
 }
 label{
@@ -127,12 +185,225 @@ label{
     background-color: lime;
     font-weight: bold;
 }
-/*additional style for sign in*/
-.signin{
-    font-family: cursive;
+.signupbtn:hover{
+    background-color: darkblue;
+    color: white;
 }
-.list{
+.signupform{
     background-color: aliceblue;
 }
+/* styles on about us page*/
+.aboutbg{
+    background: url(aboutbg.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    
+    
+}
+.aboutmsg{
+    color: white;
+    background-color: black;
+    opacity: 0.6; 
+}
+.p1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.p2{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 500;
+}
+.p3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+/*styles on our service page.*/
+.serbody{
+    padding-right: -5%;
+    padding-left: 0%;
+}
+.accordbody{
+    
+    background-image: url(services.jpg);
+    background-repeat: repeat;
+    background-size: 90%;
+    
+    
+}
+.accord{
+     margin-right: 0vw;
+     margin-left: 0vw;
+    opacity: 0.7;
+}
+.pser{
+    color:darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.navigationser{
+    position:sticky;
+    max-width:100%;
+    padding-left: 5%;
 
+    
+}
+.p2ser{
+    color: darkblue;
+    font-family: monospace;
+    font-weight: bolder;
+    background-color: none; 
+    opacity: 0.8;
+}
+.imgser{
+    float:right;
+    height:25ex;
+    width:25ex;
+}
+.mainser{
+    margin-left: -1vw;
+    padding-left: 5%;
+}
+/* staff login area styles */
+.footerstaff{
+   background-image: url(careerbgimg.JPG);
+}
+.staform{
+    border-style: none;
+    border-color: darkmagenta;
+    border:0%;
+    background-color: aliceblue;
+}
+@media only screen and (min-width: 600px) { 
+    .staform{
+    padding: 8%;}}
+
+  
+@media only screen and (max-width: 600px) { 
+    .staf22{
+    background-color: aliceblue;}}  
+
+/* career page styles*/
+.careerfooter{
+    background-color: none;
+     border-style: groove;
+      border-color: lime;
+      border-left: 0vw;
+      border-right: 0vw;
+      border-bottom: 0vw;
+}
+.txtcareer{
+    color: darkmagenta;
+    background-color: aliceblue;
+}
+.careertip{
+    font-size: larger;
+}
+@media only screen and (max-width: 600px) {
+.careertip{
+      font-size: large;
+    }
+  }
+  
+@media only screen and (min-width: 600px) {
+    .formt{
+          padding: 6%;
+          margin: 4%;
+        }
+      }
+.applyt{
+    color:white;
+    background-color: lime;
+
+}
+.applyt:hover{
+    background-color: darkblue;
+}
+  
+/*duuka styles*/
+.dukanavli{
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+@media only screen and (max-width:600px) {
+    .dukalogo{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .dukahelp{
+        display: none;
+    }
+}
+.category{
+    background-color: aliceblue;
+    padding:4vw;
+}
+.helpdrop{
+    color: lime;
+    background-color:white;
+}
+.helpdrop:hover{
+    color:darkmagenta;
+}
+
+.cardimg{
+    width:30vw;
+    height:30vw;
+    margin:2vw;
+}
+
+.catego{
+    margin:1vw;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5vw;
+}
+@media only screen and (min-width:600px) {
+.bigWcatego{
+     display:inline-flex;
+     align-items: baseline;
+}}
+
+@media only screen and (max-width:600px) {
+    .bigWcatego{
+        line-height:8vw;
+         }}
+#gridcon{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows:auto;
+    grid-gap: 2vw;
+    align-items:center;
+    justify-self: center;
+}
+.grid-item{
+padding:2vw;
+}       
+@media only screen and (min-width:600px) {
+    #gridcon{
+        display:grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows:auto;
+        grid-gap: 2vw;
+        align-items:center;
+        justify-self: center;
+    }
+    .cardimg{
+        width: 20vw;
+        height:20vw;
+        margin:2vw;
+    }
+}  
+.price{
+    background-color: aliceblue;
+    color:darkmagenta;
+    font-weight:bold;
+}   
+.pricebtn:hover{
+    background-color: lime;
+    color:white;
+}    
+          
 
