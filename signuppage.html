@@ -14,30 +14,38 @@
        </div>
       
         <form class="container justify-content-center signupform" name="signup" action="action_page.php" method="POST" target="self">
-            <div class="row ">
+            <div class="row " id="flexform">
             <div class="col">
-                  <input type="text" class="form-control m-2" placeholder=" first name" aria-label=" first name" required>
+                  <label for="first name">First name:</label>
+                  <input type="text" class="form-control m-2" placeholder="enter first name" aria-label=" first name" required>
             </div>
             <div class="col">
-                  <input type="text" class="form-control m-2" placeholder="last name" aria-label="last name" required>
+                  <label for="last name">Last name:</label>
+                  <input type="text" class="form-control m-2" placeholder=" enter last name" aria-label="last name" required>
             </div>
             </div>
             <div class=" ">
-                  <input type="email" class="form-control m-2" id=""  placeholder="type  email here" required> 
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control m-2" id=""  placeholder="type email here" required> 
             </div>
-            <div class="row ">
+            <div class="row " id="flexform">
                 <div class="col">
-                      <input type="text" class="form-control m-2" placeholder=" Address" aria-label=" clients Address" required>
+                      <label for="clients address">Address:</label>
+                      <input type="text" class="form-control m-2" placeholder=" enter current Address" aria-label=" clients Address" required>
                 </div>
                 <div class="col">
+                    <label for=" clients contact">Telephone:</label>
                       <input type=" tel" class="form-control m-2" placeholder=" telephone e.g 077****234 " aria-label="clients contact" required>
                 </div>
                 </div>
-                <div class="row">
+                <div class="row" id="flexform">
                 <div class="col">
-                     <input type="password" placeholder="enter password" name="psw" aria-label="clients password " class="form-control m-2" required>
+                  <label for="clients password">password:</label>
+                     <input type="password"
+                      placeholder="enter password" name="psw" aria-label="clients password " class="form-control m-2" required>
                 </div>
                 <div class="col">
+                    <label for="clients password">Repeat password:</label>
                      <input type="password" placeholder="repeat password" name="psw-repeat" aria-label="repeat your password" class="form-control m-2" required>
                 </div>
                 </div>
@@ -49,11 +57,11 @@
                 </div>
         </form>
         <br>
-        
+        <footer>
+            <div class=" mb-0 pt-3 ps-5 container-fluid  d-flex justify-content-center " style="background-image: url(careerbgimg.JPG);"><P class="mt-3 text-light"><i class="bi bi-c-circle"></i>  2023 clockwave innovations and technical solutions ltd<br> All Rights Reserved</P> </div>
+      </footer>
      
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
-<footer>
-      <div class=" mb-0 pt-3 ps-5 container-fluid  d-flex justify-content-center " style="background-image: url(careerbgimg.JPG);"><P class="mt-3 text-light"><i class="bi bi-c-circle"></i>  2023 clockwave innovations and technical solutions ltd<br> All Rights Reserved</P> </div>
-</footer>
+
 </html>

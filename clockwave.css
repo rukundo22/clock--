@@ -300,7 +300,7 @@ label{
 }
 @media only screen and (max-width: 600px) {
 .careertip{
-      font-size: large;
+      font-size: small;
     }
   }
   
@@ -405,5 +405,30 @@ padding:2vw;
     background-color: lime;
     color:white;
 }    
-          
+   /*at media styles for appearance for different devices.*/    
+   
+    @media only screen and (max-width:600px){
+        #indexlogoname{
+        font-size:large;
+        }
+        #indexclient{
+            font-size: small;
+        }
+        p{
+            font-size: small;
+        }
+        #flexform{
+            display:grid;
+            
+        }
+        .imgser{
+            float:right;
+            height:10ex;
+            width:10ex;
+        }
+    }
+    label{
+     color:darkmagenta;
+    }
+      
 

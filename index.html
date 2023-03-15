@@ -12,8 +12,8 @@
          <!-- logo and name -->
         <div class="container border-1 my-2  d-flex flex-row   justify-content-center"> 
                
-              <img class=" logo rounded-circle m-2 col-4 " src="logo.JPG" alt="logo" >
-              <div class=" m-2 mt-lg-4 b-lg-2  text-center h4 colorcompanyname  justify-content-center align-content-center " ><p >clockwave innovations and <br>technical solutions ltd</p></div>
+              <img class=" logo rounded-circle m-2 col-4 " src="logo.JPG" alt="logo" id="" >
+              <div class=" m-2 mt-lg-4 b-lg-2  text-center h4 colorcompanyname  justify-content-center align-content-center " id="indexlogoname" ><p >clockwave innovations and <br>technical solutions ltd</p></div>
         
         </div>
         <!--navigation section-->
@@ -55,7 +55,7 @@
         <div class="container my-5  mx-0 row  justify-content-evenly ">
           <div class="col-0 col-lg-2 "></div>
         <div class=" mb-0 col-5 col-lg-3 "> 
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-person-circle h6"></i> log in</button>
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" id="indexclient"><i class="bi bi-person-circle h6" ></i> log in</button>
 
         <div class="offcanvas offcanvas-start wrapcanvas" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
         <div>
@@ -64,7 +64,7 @@
         </div>
         <div class="offcanvas-body canvasbody">
            <!--form in the top-offcanvas--> 
-          <h2 class="canvashead signup m-3" >Sign in</h2>    
+          <h3 class="canvashead signup m-3" >Sign in</h2>    
           <form class="form-control clientsform" action="action_page.php" method="POST" target="blank" accept-charset="utf-8" autocomplete="off">
             <br>
         <div class="row mt-2">
@@ -83,7 +83,7 @@
         </div>
           </form>
         <div class="m-4">
-          <p><span class="signin">Don't have an account?</span>  <a href="signuppage.html" class="fw-bold">signup</a> </p>
+          <p><span class="signin" id="indexclient">Don't have an account?</span>  <a href="signuppage.html" class="fw-bold">signup</a> </p>
         <div class="list">
           <P class="signin">To enjoy:</P>
               <ul class="signin ">
@@ -100,12 +100,12 @@
           <!--new clients sign-in-->
         <div class="mb-0 col-5 col-lg-6 ">
              
-              <p class="fw-bold">  Don't have an account ?<a href="signuppage.html"> signup</a> </p>
+              <p class="fw-bold" id="indexclient">  Don't have an account ?<a href="signuppage.html"> signup</a> </p>
         </div></div>
 
        <!--image links--> 
     <div class=" flex-container my-0 p-2 bt-0 ms-0 bb-2 justify-content-around align-content-center slidebody fcontain1">
-       <div class="need22 " > <div class="p-3 m-4 h3 needstyle">Need:</div> </div>
+       <div class="need22 " > <div class="p-3 m-4 h3 needstyle" id="indexlogoname">Need:</div> </div>
     <div class=" qwee22 text-center "> <div id="slide22">
       
        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" class="">
@@ -150,8 +150,8 @@
        </div>
     </div>
   
-    <div class="call22  p-3 my-3 ">
-      <p class="needstyle h3"> call us:</p><p><span class=" fs-4 mtn h4">mtn</span>/<span class="fs-4 airtel h4">airtel</span></p>
+    <div class="call22  p-3 my-3 " >
+      <p class="needstyle h3" id="indexlogoname"> call us:</p><p id="indexlogoname"><span class=" fs-4 mtn h4">mtn</span>/<span class="fs-4 airtel h4">airtel</span></p>
       <div class="callus mb-0"> 
         
         <div class="me-1 "><a href="tel:+256783013799" class="" style="text-decoration: none"><button class="call rounded-circle mb-3   d-flex flex-column  justify-content-center align-content-center "> <i class="bi bi-telephone-fill mtn iconsize"></i></button></a></div>
@@ -167,7 +167,7 @@
       <div class="ms-3 me-3 inquiryform">
         <form name="inquiry" action="action_page.php" method="POST" target="blank" accept-charset="utf-8" autocomplete="on" class="m-5 form1 ">
          <label>talk to us:</label><br>
-         <div class="row ">
+         <div class="row " id="flexform">
           <div class="col">
             <input type="text" class="form-control m-2" placeholder=" first name" aria-label=" first name" required>
           </div>
@@ -175,7 +175,7 @@
             <input type="text" class="form-control m-2" placeholder="last name" aria-label="last name" required>
           </div>
           </div>
-          <div class="row">
+          <div class=" row" id="flexform">
             <div class="col">
               <label>Phone:</label>
              <input class="form-control m-2" type="tel" name="telephone number" placeholder="07******78" required>
@@ -186,7 +186,7 @@
             </div>
             </div>
         <label>Address:</label> 
-        <div class="row">
+        <div class="row" id="flexform">
           <div class="col">
             <input type="text" class="form-control m-2" placeholder="District/city" aria-label="district" required>
           </div>
@@ -197,18 +197,18 @@
         <label>inquiry: </label>
           <textarea required name="clients views" class="form-control m-2" ></textarea>
           <label for="visitation time">when would you like our technician to come?</label>
-          <div class="row m-2 justify-content-evenly">
-            <div class=" col-6">
+          <div class="row m-2 justify-content-evenly" id="flexform">
+            <div class=" col">
               <p>Date</p>
               <input type="date" class="form-control" name="visit date">
             </div>
-            <div class=" col-6">
+            <div class=" col">
               <p>Time</p>
               <input type="time" class="form-control" name="time of visit">
             </div>
           </div>
         <div class=" d-flex  justify-content-center "> 
-          <button class="m-3 btnq h5 " type="submit" >send</button>
+          <button class="m-4 btnq" type="submit" ><p class="  h6">send</p></button>
           </div>
          </form>
       </div>
@@ -229,7 +229,7 @@
           <div>
           <a href="mailto:clockwaveits@gmail.com"><i class="bi bi-envelope"></i> clockwaveits@gmail.com</a>
           </div><br>
-        <div class="row justify-content-evenly">
+        <div class="row justify-content-evenly" id="flexform">
           <p class="h4 otherlnks">other links</p>
           <!--<div class="col"></div> -->
           <div class="col">
