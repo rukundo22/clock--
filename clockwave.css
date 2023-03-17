@@ -172,11 +172,6 @@ label{
     font-style: italic;
     font-weight:500;
 }
-/* styles for duuka page*/
-.shoplogo{
-    width: 7vw;
-    height: 7vw;
-}
 /*styles for clients signup page*/
 .signup{
     color: darkmagenta;
@@ -329,11 +324,22 @@ label{
 }
   
 /*duuka styles*/
+
+/* styles for duuka page*/
+.shoplogo{
+    width: 7vw;
+    height: 7vw;
+}
 .dukanavli{
     color: white;
     text-decoration: none;
     font-family: monospace;
 }
+@media only screen and (max-width:1000px){
+.glogo{
+    display: none;
+}}
+
 @media only screen and (max-width:800px) {
     .dukalogo{
         display: none;
