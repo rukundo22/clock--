@@ -351,6 +351,9 @@ label{
         display: none;
     }
 }
+/*styles for slide section small screens*/
+
+/*end of slide section small screen*/
 @media only screen and (max-width:800px) {
     #categolist{
         
@@ -429,7 +432,12 @@ padding:2vw;
     color:white;
 }    
    /*at media styles for appearance for different devices.*/    
-   
+
+@media only screen and (max-width:600px) {
+    .ned{
+        display: none;
+    }
+}
     @media only screen and (max-width:800px){
         #indexlogoname{
         font-size:large;
@@ -455,4 +463,5 @@ padding:2vw;
      color:darkmagenta;
     }
       
+    
 

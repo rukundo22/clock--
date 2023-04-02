@@ -1,0 +1,124 @@
+/*small screen need styles*/
+@media only screen and (max-width:600px) {
+    .ned{
+        display: none;
+    }
+}
+.ned2{
+    color: darkmagenta;
+    font-style: italic;
+    font-size: larger;
+}
+@media only screen and (min-width:600px) {
+    .ned2{
+        display: none;
+    }
+}
+/*after login styles*/
+  .afterlgout{
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+
+  }
+      .afterlnks{
+        
+        background-color: blue;
+        border: none;
+        color: white;
+      }
+    .clientsname{
+        color:blue;
+        font-style:italic;
+        font-size: small;
+        font-weight: bold;
+    }
+    .afterslide{
+        background-color: white;
+        
+    }
+    .afterslide2:hover{
+        border: 2px;
+        border-style: groove;
+        border-color: lime;
+    }
+    .afterimage{
+    width: 50%;
+    height:50%;
+    margin: auto;
+    padding: 0.5vw;
+    }
+ 
+
+@media only screen and (min-width:600px) {
+    
+    .afterimage{
+        width: 30%;
+        height:25%;
+        margin: auto;
+        padding: 0.5vw;
+        }    
+    
+}
+.prodtdis{
+    color: darkmagenta;
+
+}
+#afterback{
+    text-decoration:none;
+}
+/* orders page styles*/
+
+.cancel{
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid;
+    border-color: lime;
+
+}
+
+.easyview{
+    font-family: cursive;
+    font-size: larger;
+    color:darkmagenta;  
+}
+
+.view{
+    background-color:blue;
+    color: white; 
+    border: 0px; 
+}
+th{
+    color: darkmagenta;
+}
+.points{
+    background-color:none;
+    color: darkblue;
+    
+}
+.points2{
+    color:green;
+}
+.staffpic{
+    width: 15vw;
+    height: 15vw;
+    border: 1px;
+    border-style: groove;
+    border-color: darkmagenta;
+}
+
+.staffpicid{
+    width: 40vw;
+    height: 20vw;
+    border: 1px;
+    border-style: groove;
+    border-color: darkmagenta;
+}
+
